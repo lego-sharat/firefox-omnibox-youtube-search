@@ -1,0 +1,15 @@
+{
+    "name": "Firefox omnibar youtube search",
+    "description" : "To use, type 'youtube' plus a search term into the url bar.",
+    "version": "1.0",
+    "applications": {
+      "gecko": {
+        "strict_min_version": "52.0a1"
+      }
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "omnibox": { "keyword" : "youtube" },
+    "manifest_version": 2
+  }
