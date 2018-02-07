@@ -1,5 +1,5 @@
 {
-    "name": "Firefox omnibar youtube search",
+    "name": "Omnibar youtube search",
     "description" : "To use, type 'youtube' plus a search term into the url bar.",
     "version": "1.0",
     "applications": {
@@ -10,6 +10,6 @@
     "background": {
       "scripts": ["background.js"]
     },
-    "omnibox": { "keyword" : "youtube" },
+    "omnibox": { "keyword" : "/" },
     "manifest_version": 2
   }
